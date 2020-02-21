@@ -67,7 +67,14 @@ h1, h2, h3, h4, h5 {
 
 
 
+.navigation {
+    display: flex;
+    justify-content:space-between;
+    margin: 0 500px 0 500px;
 
+    height: 75px;
+
+}
 
 
 
@@ -107,7 +114,6 @@ header button {
     width:110x;
     height:40px;
     font-size:25px;
-    display:inline-block;
     }
   
 .firstsection {
@@ -140,4 +146,48 @@ header button {
     height: 150px;
     width: 590px;
     margin-left: 500px;
+}
+
+
+
+
+
+/* services.html */
+
+
+.firstContainer {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+.box {
+	width: 425px;
+	padding: 20px;
+	background-color: rgb(236, 236, 236);
+    margin-bottom: 40px;
+    border: 1px solid black;
+}
+
+.closing {
+    display:flex;
+}
+
+.endbox {
+    color: red;
+    width: 450px
+}
+
+.button1 {
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.toppart {
+    margin-left: 500px;
+    margin-right: 500px;
 }
